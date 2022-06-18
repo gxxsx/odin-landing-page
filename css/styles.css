@@ -1,0 +1,197 @@
+/* */
+/* styles.css */
+
+body{
+    font-family: sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* *{
+    border: 2px solid red;
+} */
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* NavBar */
+.navbar{
+    display: flex;
+    justify-content: end;
+    background-color: #1f2937;
+}
+
+.navbar h1{
+    color: #fff;
+}
+
+.navbar .leading{
+    padding: 15px;
+    flex: 1;
+    display: flex;
+}
+
+.navbar .trailing{
+    padding: 15px;
+    flex: 3;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin: 10px;
+    color: #fff;
+}
+
+.logo-img img{
+    height: 50;
+    width: auto;
+}
+
+/* Hero Box */
+
+.hero {
+    padding: 20px;
+    display: flex;
+    background-color: #1f2937;
+}
+
+.hero .left{
+    flex: 1;
+    flex-flow: column;
+}
+
+.hero .left h1,p{
+    color: #fff;
+}
+
+.hero .right{
+    flex: 1;
+    justify-content: stretch;
+    height: 300px;
+    padding: 15px;
+}
+
+.hero .right img {
+    border-radius: 12px;
+}
+
+/* Information Box */
+
+.information{
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.information .items{
+    margin-top: 0%;
+    flex-direction: row;
+    display: flex;
+}
+
+.information h2{
+    color: #1f2937;
+}
+
+.information .items .placeholder{
+    width: 150px;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.information .content{
+ height: 100px;
+ width: 100px;
+ border: 2px solid rgb(0, 118, 186);
+ border-radius: 12px;
+}
+
+.information .subtext{
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* Quote Section */
+
+.quote{
+    background-color: #e5e7eb;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 100px;
+    margin-top: 30px;
+}
+
+.quote-txt{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author{
+    align-self: flex-end;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+/* Call to action */
+
+.cta-container{
+    padding: 120px;
+    display: flex;
+}
+
+.cta-banner{
+    display: flex;
+    padding: 25px;
+    height: 150px;
+    width: 100%;
+    background-color: #3882f6;
+    color: #fff;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-title{
+    font-size: 36px;
+}
+
+.cta-subtitle{
+    font-size: 22px;
+    font-weight: light;
+}
+
+.button{
+    font-weight: bold;
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* Footer */
+
+.footer{
+    height: 100px;
+    background-color: #1f2937;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
